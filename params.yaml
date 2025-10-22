@@ -1,0 +1,12 @@
+
+autoencoder:
+  input_dim: 30
+  hidden_dim: 14
+  epochs: 10
+  batch_size: 32
+pca:
+  n_components: 10
+kmeans:
+  n_clusters: 3
+threshold:
+  reconstruction_error: 0.05
